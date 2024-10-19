@@ -20,13 +20,13 @@ function updateClock() {
     // Define a saudação e o fundo com base no horário
     if (hours >= 6 && hours < 12) {
         greetingElement.textContent = 'Bom dia!';
-        bodyElement.style.backgroundImage = "url('imgs/manha.png')"; // Altere para o caminho correto da sua imagem
+        bodyElement.style.backgroundImage = "url('imgs/manha.png')";
     } else if (hours >= 12 && hours < 18) {
         greetingElement.textContent = 'Boa tarde!';
-        bodyElement.style.backgroundImage = "url('tarde.gif')"; // Altere para o caminho correto da sua imagem
+        bodyElement.style.backgroundImage = "url('tarde.gif')";
     } else {
         greetingElement.textContent = 'Boa noite!';
-        bodyElement.style.backgroundImage = "url('imgs/noite.gif')"; // Altere para o caminho correto da sua imagem
+        bodyElement.style.backgroundImage = "url('imgs/noite.gif')";
     }
 }
 
